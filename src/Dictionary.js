@@ -3,7 +3,7 @@ import axios from "axios";
 import Results from "./Results";
 
 export default function Dictionary() {
-  const [keyword, setKeyword] = useState("paris");
+  const [keyword, setKeyword] = useState("wine");
   const [results, setResults] = useState(null);
   let [loaded, setLoaded] = useState(false);
 
@@ -32,7 +32,11 @@ export default function Dictionary() {
       <div className="Dictionary">
         <section>
           <form onSubmit={handleSubmit}>
-            <input type="search" onChange={handleKeywordChange} />
+            <input
+              type="search"
+              onChange={handleKeywordChange}
+              defaultValue="wine"
+            />
           </form>
         </section>
         <Results results={results} />
