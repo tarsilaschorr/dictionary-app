@@ -1,0 +1,9 @@
+div .Definition {
+  font-size: 16px;
+}
+
+div .Example {
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 15px;
+}

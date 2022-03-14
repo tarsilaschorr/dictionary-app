@@ -1,0 +1,15 @@
+div .listen {
+  font-size: 12px;
+  margin: 0;
+}
+div .Phonetic {
+  margin-bottom: 5px;
+}
+div .text {
+  font-size: 17px;
+}
+
+span .listen {
+  font-size: 12px;
+  color: purple !important;
+}

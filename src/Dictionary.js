@@ -42,6 +42,8 @@ export default function Dictionary() {
     return (
       <div className="Dictionary">
         <section>
+          <h1> Dictionary </h1>
+          <div className="introduction">What are you looking for?</div>
           <form onSubmit={handleSubmit}>
             <input
               type="search"

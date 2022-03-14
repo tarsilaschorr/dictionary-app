@@ -1,0 +1,16 @@
+body {
+  margin-bottom: 20px;
+}
+span {
+  font-size: 10px;
+  font-weight: thin;
+  text-align: center;
+}
+.link {
+  text-decoration: none;
+  color: #b091fd;
+}
+.link:hover {
+  text-decoration: underline;
+  color: #b091fd;
+}

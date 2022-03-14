@@ -12,3 +12,17 @@
   color: #333;
   border: 1px solid #ddd;
 }
+
+h1 {
+  font-size: 30px;
+  font-weight: 300px;
+  text-align: center;
+  color: #b091fd;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+div .introduction {
+  font-size: 15px;
+  text-align: center;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
